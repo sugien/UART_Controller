@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+uart_controller instance_name (
+    .clk100mhz(clk100mhz), 
+    .cpu_resetn(cpu_resetn), 
+    .uart_rxd_out(uart_rxd_out), 
+    .uart_txd_in(uart_txd_in), 
+    .send_sig(send_sig), 
+    .send_data(send_data), 
+    .recived_sig(recived_sig), 
+    .recived_data(recived_data), 
+    .busy_sending(busy_sending)
+    );
+
+

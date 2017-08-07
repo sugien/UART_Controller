@@ -1,0 +1,6 @@
+verilog work "uart_tx.v"
+verilog work "uart_rx.v"
+verilog work "uart_controller.v"
+verilog work "data_manager.v"
+verilog work "data_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
